@@ -1,2 +1,2 @@
 # CS50
-These are my projects for CS50’s Web Programming with Python and JavaScript
+These are my projects for Harvard's CS50 Web Programming with Python and JavaScript
