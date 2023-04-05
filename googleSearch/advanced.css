@@ -1,0 +1,29 @@
+.top{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 12em;
+    background-color: #4285F4;
+}
+
+a{
+    padding: 1em;
+    text-decoration: none;
+    color: black;
+}
+
+input[type="text"]{
+    display: flex;
+    flex-direction: column;
+    margin: 3em;
+    padding: 2em;
+    width: 60em;
+    height: 2em;
+    display: inline-block;
+}
+
+label{
+    display: inline-block;
+    background-color: aqua;
+    width: 20em;
+    text-align: center;
+}
