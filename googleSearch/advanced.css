@@ -1,8 +1,7 @@
 .top{
     display: flex;
     flex-direction: row-reverse;
-    height: 12em;
-    background-color: #4285F4;
+    height: 8em;
 }
 
 a{
@@ -14,16 +13,32 @@ a{
 input[type="text"]{
     display: flex;
     flex-direction: column;
-    margin: 3em;
-    padding: 2em;
-    width: 60em;
-    height: 2em;
+    margin: 2em;
+    padding: 1em;
+    width: 65em;
+    height: 0.5em;
     display: inline-block;
 }
-
+form{
+    background-color: #e0e0e0;
+}
 label{
     display: inline-block;
-    background-color: aqua;
     width: 20em;
     text-align: center;
+}
+
+#submitfor{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 6em;
+    height: 3em;
+}
+#submitforbutton{
+    background-color: #4285F4;
+    color: white; 
+    border: none;
+}
+#submitforbutton:hover{
+    background-color: green;
 }
