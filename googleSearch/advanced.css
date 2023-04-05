@@ -38,6 +38,7 @@ label{
     background-color: #4285F4;
     color: white; 
     border: none;
+    border-radius: 0.4em;
 }
 #submitforbutton:hover{
     background-color: green;
