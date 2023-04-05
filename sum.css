@@ -1,0 +1,40 @@
+.top{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 10em;
+}
+
+a{
+    padding: 1em;
+    text-decoration: none;
+    color: black;
+}
+
+.mid{
+    justify-content: center;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+input[type="submit"]{
+    flex: none;
+    margin: 1em;
+}
+
+input[type="text"] {
+    width: 40em;
+    border-radius: 1em;
+    border: 1px solid gray;
+    height: 1.5em;
+  }
+
+.inputs{
+    background-color: white;
+    color: aliceblue;
+}
+
