@@ -1,9 +1,17 @@
-.top{
+/*.top{
     display: flex;
     flex-direction: row-reverse;
     height: 8em;
+}*/
+.top{
+    float: right;
+    display: block;
+    margin: 1em;
 }
-
+img{
+    width:5em ;
+    height:2.5em ;
+}
 a{
     padding: 1em;
     text-decoration: none;
@@ -18,14 +26,21 @@ input[type="text"]{
     width: 65em;
     height: 0.5em;
     display: inline-block;
+    border-radius: 1em;
+    border: 0.5px solid #3c4043;
 }
-form{
+/*form{
     background-color: #e0e0e0;
+}*/
+#header{
+    font-size: 20px;
+    padding: 1em;
 }
 label{
     display: inline-block;
     width: 20em;
-    text-align: center;
+    padding-left: 2em;
+    color: #3c4043;
 }
 
 #submitfor{
@@ -41,5 +56,15 @@ label{
     border-radius: 0.4em;
 }
 #submitforbutton:hover{
-    background-color: green;
+    border: 0.5px solid grey;
+    box-shadow: grey 1px 1px ;
+}
+input[type="text"]:hover{
+    border: 1px solid grey;
+    box-shadow: grey 1px 1px ;
+}
+hr{
+    height: 1px;
+    background-color: #e0e0e0;
+    border: none;
 }
